@@ -7,9 +7,9 @@ export const blogList = [
     description:
       " ",
     authorName: 'Jesus Valencia Calvillo',
-    authorAvatar: 'Portfolio-Website/assets/images/Bugdriod.gif',
+    authorAvatar: './Portfolio-Website/assets/images/Bugdriod.gif',
     createdAt: 'April 28 2022',
-    cover: 'Portfolio-Website/assets/images/designer-1.jpg',
+    cover: '/Portfolio-Website/assets/images/designer-1.jpg',
   },
   {
     id: 2,
@@ -19,9 +19,9 @@ export const blogList = [
     description:
       "",
     authorName: 'Jesus Valencia Calvillo',
-    authorAvatar: 'Portfolio-Website/assets/images/Bugdriod.gif',
+    authorAvatar: './Portfolio-Website/assets/images/Bugdriod.gif',
     createdAt: 'March 13, 2022',
-    cover: 'Portfolio-Website/assets/images/CiscoCCNA.jpg',
+    cover: '/Portfolio-Website/assets/images/CiscoCCNA.jpg',
   },
   {
     id: 3,
@@ -31,9 +31,9 @@ export const blogList = [
     description:
       "",
     authorName: 'Jesus Valencia Calvillo',
-    authorAvatar: 'Portfolio-Website/assets/images/Bugdriod.gif',
+    authorAvatar: './Portfolio-Website/assets/images/Bugdriod.gif',
     createdAt: 'January 17, 2022',
-    cover: 'Portfolio-Website/assets/images/html.gif',
+    cover: '/Portfolio-Website/assets/images/html.gif',
   },
   {
     id: 4,
@@ -41,10 +41,10 @@ export const blogList = [
     category: 'Programming',
     shortDescription: 'The ability to print Hello World in one line, an abundance of frameworks for web development, and automating tasks! Python is boundless!',
     description:
-      "After pfinishing my first fibannci sequence programm, I compared it to my Java version of it. Needless to say, I have experimented more with python rather than any other language.",
+      "After finishing my first fibannci sequence programm, I compared it to my Java version of it. Needless to say, I have experimented more with python rather than any other language.",
     authorName: 'Jesus Valencia Calvillo',
-      authorAvatar: 'Portfolio-Website/assets/images/Bugdriod.gif',
+    authorAvatar: './Portfolio-Website/assets/images/Bugdriod.gif',
     createdAt: 'January 7, 2022',
-    cover: 'Portfolio-Website/assets/images/Simple-Python.gif',
+    cover: "/Portfolio-Website/assets/images/Simple-Python.gif",
   },
 ];

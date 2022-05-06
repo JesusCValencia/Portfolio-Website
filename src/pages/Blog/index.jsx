@@ -28,6 +28,7 @@ const Blog = () => {
             <p className='blog-date'>Published {blog.createdAt}</p>
             <h1>{blog.title}</h1>
           </header>
+          <br/>
           <img src={blog.cover} alt='cover' />
           <p className='blog-desc'>{blog.description}</p>
         </div>
