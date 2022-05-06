@@ -12,8 +12,7 @@ const Contact = () => {
                 <br/>
                 <li>Github: <a href = "https://github.com/JesusCValencia">JesusCValencia</a></li>
                 <br/>
-                <br/>
-                <li>Twitter</li>            
+                <br/>        
             </ul>
         </div>
     )

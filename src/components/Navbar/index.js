@@ -12,7 +12,7 @@ const Navbar = () => {
     return (
         <Nav>
             <NavLink to = "/">
-                <img src = "/assets/images/house.png" width= "40" height = "40"></img>
+                <img src = "Portfolio-Website/assets/images/house.png" width= "40" height = "40"></img>
             </NavLink>
             <Bars />
             <NavMenu>
@@ -28,7 +28,7 @@ const Navbar = () => {
             </NavMenu>
             <NavBtn>
                 <a href = "https://github.com/JesusCValencia">
-                <img src = "/assets/images/github.png" width= "40" height = "40"></img>
+                <img src = "Portfolio-Website/assets/images/github.png" width= "40" height = "40"></img>
                 </a>
             </NavBtn>
         </Nav>
