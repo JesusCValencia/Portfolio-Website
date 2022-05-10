@@ -15,3 +15,14 @@
     grid-template-columns: repeat(1, 1fr);
   }
 }
+
+.blogContainer{
+  width: 100%;
+  height: auto;
+  align-self: auto;
+  padding: 10px;
+  border-radius: 20px;
+  margin-bottom: 0.5rem;
+  border: 5px solid #92a8d1;
+  background-color: #d76a74;
+}

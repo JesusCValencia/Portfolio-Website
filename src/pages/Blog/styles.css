@@ -5,19 +5,26 @@
 
 .blog-goBack {
   text-decoration: none;
-  font-size: 0.8rem;
-  color: #a9a9a9;
+  font-size: 1.1rem;
+  color: #46023d;
   font-weight: 500;
-  margin-bottom: 2rem;
+  margin: 1rem;
   display: block;
+  font-weight: bold;
+  background-color: black;
+  text-align: center;
+  border-radius: 5px;
+  border: 2px solid #92a8d1;
+  background-color: #d76a74;
 }
 .blog-wrap header {
   text-align: center;
+  color: #dc8564;
 }
 
 .blog-date {
   font-size: 0.8rem;
-  color: #a9a9a9;
+  color: #f7ccf6;
   font-weight: 500;
 }
 
@@ -35,4 +42,12 @@
 .blog-desc {
   padding: 1rem;
   margin-top: 1.5rem;
+  color: #f7ccf6;
+}
+
+p.blog-date{
+  color: #f7ccf6;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
 }

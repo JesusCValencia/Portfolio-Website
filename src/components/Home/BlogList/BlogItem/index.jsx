@@ -31,7 +31,7 @@ const BlogItem = ({
           </div>
         </div>
         <Link className='blogItem-link' to={`/blog/${id}`}>
-          ➝
+          Read More ➝
         </Link>
       </footer>
     </div>

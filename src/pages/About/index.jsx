@@ -4,20 +4,29 @@ import './styles.css';
 const About = () => {
     return (
         <>
-        <div className='infocontainer'>
+        <header className='home-header'>
+        <h2>Who Am I?</h2>
         <br/>
-            <h1>Who Am I?</h1>
+        <div className='infocontainer'>
             <br/>
-            <img src = "Portfolio-Website/assets/images/lofi.gif" width ="400" height = "250" align = "center" border-color = "blue" border ="11"></img>
+            <div className = 'blogItem-wrap'>
+                <img className='blogItem-coverAbout' src={"Portfolio-Website/assets/images/lofi.gif"} alt='about-coverImage' />
+            </div>
             <br/>
             <br/>
-            <p>A college student who always carries his laptop, building things from scratch. Please enjoy my Lofi themed website.</p>
+            <p class = 'thick'>Caffeine free coder, pixel drawing enthusiast with a nature of a calm tech practilist. 
+                Currently finishing my bachelor's degree in Computer Information Systems at USC Upstate, with an end goal as a SWE.
+                
+                
+                <br/>
+                <br/> My ideal vacation... in my room with blackout curtains and a dimly lit workstation.
+                Feel free to test out my lofi themed portfolio website!   
+            </p>
             <br/>
             <br/>
         </div>
-
+        </header>
         </>
-
     )
 }
 

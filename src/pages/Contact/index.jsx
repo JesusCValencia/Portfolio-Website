@@ -3,8 +3,11 @@ import './styles.css';
 
 const Contact = () => {
     return (
+        <>
+        <header className='home-header'>
+        <h2>Contact Information</h2>
+        <br/>
         <div className='infocontainer'>
-        <h1>Contact Information</h1>
             <br/>
             <ul>
                 <li>Email: <a href = "mailto: jesuscalvalencia@gmail.com">jesuscalvalencia@gmail.com</a></li>
@@ -15,6 +18,8 @@ const Contact = () => {
                 <br/>        
             </ul>
         </div>
+        </header>
+        </>
     )
 }
 
