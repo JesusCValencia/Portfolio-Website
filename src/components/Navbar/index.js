@@ -5,16 +5,17 @@ import {
     Bars,
     NavMenu,
     NavBtn,
-    NavBtnLink
   } from './NavbarElements';
 
-const Navbar = () => {
+
+const Navbar = ({ toggle }) => {
+
     return (
         <Nav>
             <NavLink to = "/">
                 <img src = "/Portfolio-Website/assets/images/home.png" width= "40" height = "40" alt = "home icon"></img>
             </NavLink>
-            <Bars />
+            <Bars onClick={toggle}></Bars>
             <NavMenu>
                 <NavLink to = "/About" activeStyle>
                   About  

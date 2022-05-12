@@ -19,6 +19,7 @@ h1{
 
 li{
     font-weight: bold;
+    color: #46023d;
 }
 
 .home-header {
@@ -36,11 +37,7 @@ li{
   margin-bottom: 1rem;
 }
 
-.home-header h1 span {
+a, a.socialLinks:hover, a.socialLinks:visited, a.socialLinks:active {
   color: #bcacd4;
-}
-
-.home-header p {
-  color: #bcacd4;
-  font-weight: 500;
-}
+  text-decoration: underline;
+ }

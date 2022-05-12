@@ -10,10 +10,10 @@ const Contact = () => {
         <div className='infocontainer'>
             <br/>
             <ul>
-                <li>Email: <a href = "mailto: jesuscalvalencia@gmail.com">jesuscalvalencia@gmail.com</a></li>
+                <li>Email: <a className = "socialLinks"  href = "mailto: jesuscalvalencia@gmail.com">jesuscalvalencia@gmail.com</a></li>
                 <br/>
                 <br/>
-                <li>Github: <a href = "https://github.com/JesusCValencia">JesusCValencia</a></li>
+                <li>Github: <a className = "socialLinks" href = "https://github.com/JesusCValencia">JesusCValencia</a></li>
                 <br/>
                 <br/>        
             </ul>
