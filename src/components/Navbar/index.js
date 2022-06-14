@@ -29,8 +29,7 @@ const Navbar = ({ toggle }) => {
             </NavMenu>
             <NavBtn>
                 <a href = "https://github.com/JesusCValencia">
-                <img src = "/Portfolio-Website/assets/images/github.png" width= "40" height = "40"></img>
-                </a>
+                <img src = "/Portfolio-Website/assets/images/github.png" width= "40" height = "40"></img></a>
             </NavBtn>
         </Nav>
     )

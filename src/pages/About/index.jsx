@@ -19,8 +19,8 @@ const About = () => {
                 
                 
                 <br/>
-                <br/> My ideal vacation... in my room with blackout curtains and a dimly lit workstation.
-                Feel free to test out my lofi themed portfolio website!   
+                <br/> Will always keep website up to date.
+                That being said feel free to test out my lofi themed portfolio website!   
             </p>
             <br/>
             <br/>
