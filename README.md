@@ -5,6 +5,7 @@ Created and deployed a multi page responsive portfolio website using the Github 
 Primarily focused on developing a front end website. 
 Uses ReactJS to develop a blog app, using HTML, CSS, and Javascript.
 
+# Updates
 Update: 4/15/22
 -Website deployed
 -Website uses a search bar to sort the blog posts by category.
