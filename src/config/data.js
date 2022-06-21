@@ -7,7 +7,7 @@ export const blogList = [
     description:
       "Test ",
     authorName: 'Jesus Valencia Calvillo',
-    authorAvatar: './Portfolio-Website/assets/images/Bugdriod.gif',
+    authorAvatar: '/Portfolio-Website/assets/images/Bugdriod.gif',
     createdAt: 'April 28 2022',
     cover: '/Portfolio-Website/assets/images/designer-1.jpg',
   },
@@ -19,7 +19,7 @@ export const blogList = [
     description:
       "",
     authorName: 'Jesus Valencia Calvillo',
-    authorAvatar: './Portfolio-Website/assets/images/Bugdriod.gif',
+    authorAvatar: '/Portfolio-Website/assets/images/Bugdriod.gif',
     createdAt: 'March 13, 2022',
     cover: '/Portfolio-Website/assets/images/CiscoCCNA.jpg',
   },
@@ -31,7 +31,7 @@ export const blogList = [
     description:
       'Designing the blueprints to my website was the most difficult as I had to describe myself through visuals. I find myself to be relax and always listen to music when I work. The theme of lofi perfectly suits this, yet I had to present this in a colors. The', 
     authorName: 'Jesus Valencia Calvillo',
-    authorAvatar: './Portfolio-Website/assets/images/Bugdriod.gif',
+    authorAvatar: '/Portfolio-Website/assets/images/Bugdriod.gif',
     createdAt: 'January 17, 2022',
     cover: '/Portfolio-Website/assets/images/html.gif',
   },
@@ -43,7 +43,7 @@ export const blogList = [
     description:
       "After finishing my first fibonacci sequence program, I compared it to my Java version of it. Needless to say, I have experimented more with python rather than any other language.",
     authorName: 'Jesus Valencia Calvillo',
-    authorAvatar: './Portfolio-Website/assets/images/Bugdriod.gif',
+    authorAvatar: '/Portfolio-Website/assets/images/Bugdriod.gif',
     createdAt: 'January 7, 2022',
     cover: '/Portfolio-Website/assets/images/Simple-Python.gif',
   },
