@@ -1,7 +1,7 @@
 # Portfolio Website
 Created and deployed a multi page responsive portfolio website using the Github Pages.
 
-#Website is Live!
+#Website is Live
 https://jesuscvalencia.github.io/Portfolio-Website/
 
 # About the Website 
