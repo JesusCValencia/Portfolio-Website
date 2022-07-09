@@ -23,6 +23,9 @@ const Navbar = ({ toggle }) => {
                 <NavLink to = "/" activeStyle>
                   Blog  
                 </NavLink>
+                <NavLink to = "/games" activeStyle>
+                  Game
+                </NavLink>
                 <NavLink to = "/contact" activeStyle>
                   Contact 
                 </NavLink>

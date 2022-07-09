@@ -7,6 +7,8 @@ import Navbar from './components/Navbar';
 import Contact from './pages/Contact';
 import About from './pages/About';
 import Sidebar from './components/Sidebar';
+import Game from './components/TetrisGame/Game';
+
 
 const App = () => {
 
@@ -26,6 +28,7 @@ const App = () => {
         <Route path='/blog/:id' component={Blog} />
         <Route path='/contact' component = {Contact} />
         <Route path='/about' component = {About} />
+        <Route path='/games' component = {Game} />
         <Redirect to='/' />
       </Switch>
     </div>
