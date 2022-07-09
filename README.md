@@ -22,5 +22,9 @@ Update: 6/21/22
 -Fixed GIF rendereing issues
 -Updated from BrowserRouter to HashRouter
 
+Update: 7/8/2022
+-Added New Section ( Games )
+
+
 # Credit
 CodeFreeze - (https://www.youtube.com/watch?v=7kjud2ikReQ&ab_channel=codefreeze)
