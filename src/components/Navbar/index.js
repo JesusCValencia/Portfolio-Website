@@ -24,7 +24,7 @@ const Navbar = ({ toggle }) => {
                   Blog  
                 </NavLink>
                 <NavLink to = "/games" activeStyle>
-                  Game
+                  Games
                 </NavLink>
                 <NavLink to = "/contact" activeStyle>
                   Contact 

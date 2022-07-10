@@ -5,7 +5,7 @@ import Preview from "./Preview";
 const Previews = ({ tetrominoes }) => {
   // We want everything except the last one
   const previewTetrominoes = tetrominoes
-    .slice(1 - tetrominoes.length)
+    .slice(2 - tetrominoes.length)
     .reverse();
 
   return (

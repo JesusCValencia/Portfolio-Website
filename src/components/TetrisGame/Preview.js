@@ -1,4 +1,5 @@
 import "./Styles/Preview.css";
+import "./Styles/GameStats.css"
 import React from "react";
 
 import { buildBoard } from "./Builds/Board";
@@ -11,7 +12,7 @@ const Preview = ({ tetromino, index }) => {
 
   const board = buildBoard({ rows: 4, columns: 4 });
 
-  const style = { top: `${index * 15}vw` };
+  const style = { top: `${index * 9}vw` };
 
   board.rows = transferToBoard({
     className,
@@ -29,6 +30,7 @@ const Preview = ({ tetromino, index }) => {
             <BoardCell key={x * board.size.columns + x} cell={cell} />
           ))
         )}
+        
       </div>
     </div>
   );

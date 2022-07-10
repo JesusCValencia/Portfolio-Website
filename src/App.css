@@ -24,3 +24,8 @@ input {
   margin: 0 auto;
   padding: 1rem 0;
 }
+
+@font-face{
+  font-family:'PublicPixel';
+  src: local('PublicPixel'), url('./components/TetrisGame/Fonts/PublicPixel-0W5Kv.ttf') format('truetype');
+}

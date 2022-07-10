@@ -1,17 +1,37 @@
 .Preview {
-    position: absolute;
-    top: 0;
-    left: 72.2vw;
-    background: rgba(0, 0, 0, 0.1);
-    border: 10px solid rgba(0, 0, 0, 0);
-    border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 55vw;
+  background: rgba(0, 0, 0, 0.1);
+  border: 10px solid rgba(0, 0, 0, 0);
+  border-radius: 10px;
 }
 
 .Preview-board {
+  display: grid;
+  grid-gap: 2px;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  width: 7vw;
+  height: 7vw;
+}
+
+@media (max-width: 1354px) {
+  .Preview{
+    position: absolute;
+    top: 0;
+    left: 65vw;
+    background: rgba(0, 0, 0, 0.1);
+    border: 10px solid rgba(0, 0, 0, 0);
+    border-radius: 10px;
+  }
+
+  .Preview-board {
     display: grid;
     grid-gap: 2px;
     grid-template-rows: repeat(4, 1fr);
     grid-template-columns: repeat(4, 1fr);
-    width: 11vw;
-    height: 11vw;
+    width: 5.5vw;
+    height: 5.5vw;
+  }
 }
