@@ -9,17 +9,10 @@
     background-color: #b55660;
 }
 
-
-
 h1{
     text-align: center;
     text-decoration: underline;
     font-weight: bold;
-}
-
-li{
-    font-weight: bold;
-    color: #46023d;
 }
 
 .home-header {
@@ -37,7 +30,33 @@ li{
   margin-bottom: 1rem;
 }
 
-a, a.socialLinks:hover, a.socialLinks:visited, a.socialLinks:active {
-  color: #bcacd4;
-  text-decoration: underline;
- }
+a{
+  color: blue;
+}
+
+ .logoStyle{
+  display: inline-block;
+  cursor: pointer;
+  margin: 50px;
+  box-shadow: black;
+}
+
+.logoStyle:hover{
+  animation: bounce 1s linear
+}
+@keyframes bounce{
+  20%, 50%, 80%, to{
+    transform: translateY(0);
+  }
+  40%{
+    transform: translateY(-35px);
+  }
+  70%{
+    transform: translateY(-15px);
+  }
+  85%{
+    transform: translateY(-4px);
+  }
+
+}
+

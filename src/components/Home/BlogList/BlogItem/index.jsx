@@ -6,7 +6,6 @@ import './styles.css';
 const BlogItem = ({
   blog: {
     shortDescription,
-    description,
     title,
     createdAt,
     authorName,

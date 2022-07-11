@@ -1,7 +1,7 @@
 export const blogList = [
   {
     id: 1,
-    title: 'Andriod App Development',
+    title: 'Android App Development',
     category: 'Projects',
     shortDescription: 'I never maintain hydrated, yet I always have my phone on me. Let me create a reminder app that becomes a lovable, nuisance!',
     description:
