@@ -23,8 +23,8 @@ const Navbar = ({ toggle }) => {
                 <NavLink to = "/" activeStyle>
                   Blog  
                 </NavLink>
-                <NavLink to = "/games" activeStyle>
-                  Games
+                <NavLink to = "/Projects" activeStyle>
+                  Projects
                 </NavLink>
                 <NavLink to = "/contact" activeStyle>
                   Contact 

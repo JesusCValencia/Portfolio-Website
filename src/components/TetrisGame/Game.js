@@ -3,7 +3,7 @@ import Menu from './Menu';
 import Tetris from './Tetris';
 import { useGameOver } from "./Hooks/useGameOver";
 
-const Game = ({ rows = 20 , columns = 10 }) => {
+const Projects = ({ rows = 20 , columns = 10 }) => {
     const [gameOver, setGameOver, resetGameOver] = useGameOver()
     
     //Reset the game
@@ -24,4 +24,4 @@ const Game = ({ rows = 20 , columns = 10 }) => {
 }
 
 
-export default Game;
+export default Projects;
