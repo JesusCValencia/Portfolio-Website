@@ -10,20 +10,20 @@ Uses ReactJS to develop a blog app, using HTML, CSS, and Javascript.
 
 
 # Updates
-Update: 4/15/22
-  -Website deployed
-  -Website uses a search bar to sort the blog posts by category.
-Update: 5/10/22
-  -Added About section
-  -Added Contact section
-Update: 6/21/22
-  -Fixed grammatical errors
-  -Fixed GIF rendereing issues
-  -Updated from BrowserRouter to HashRouter
-Update: 7/15/22
-  -Added Tetris Clone
-  -Added Footer
-  -Added AudioPlayer in Footer
+- Update: 4/15/22
+   - Website deployed
+   - Website uses a search bar to sort the blog posts by category.
+- Update: 5/10/22
+   - Added About section
+   - Added Contact section
+- Update: 6/21/22
+   - Fixed grammatical errors
+   - Fixed GIF rendereing issues
+   - Updated from BrowserRouter to HashRouter
+- Update: 7/15/22
+   - Added Tetris Clone
+   - Added Footer
+   - Added AudioPlayer in Footer
 
 
 # Credit
